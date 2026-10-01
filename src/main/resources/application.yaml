@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aiprovider
+  ai:
+    bedrock:
+      aws:
+        region: eu-central-1
+      converse:
+        chat:
+          model: eu.anthropic.claude-sonnet-4-6
